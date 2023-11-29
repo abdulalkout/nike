@@ -1,0 +1,12 @@
+.adsBar {
+  background-color: rgba(245, 245, 245, 255);
+  text-align: center;
+  height: 50px;
+}
+
+.adsHeadline {
+  width: 300px;
+  margin-left: 35%;
+  font-size: small;
+  padding-top: 10px;
+}

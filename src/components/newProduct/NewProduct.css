@@ -1,0 +1,29 @@
+.newProduct {
+  height: 700px;
+}
+
+.newProductImgDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.newProductdiscriptionDiv {
+  text-align: center;
+}
+
+.newProductButton {
+  background-color: black;
+  border: none;
+  color: white;
+  margin-bottom: 50px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 15px 0 15px;
+}
+
+.newProductButtonDiv {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+  margin-left: 39%;
+}

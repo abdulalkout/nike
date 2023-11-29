@@ -1,0 +1,22 @@
+.categoriesListDiv {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 20px 50px 20px;
+}
+
+.hrefStyle {
+  text-decoration: none;
+  color: white;
+}
+
+.categoryButton {
+  background-color: black;
+  border: none;
+  width: 70px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.categoryImg {
+  height: 380px;
+}

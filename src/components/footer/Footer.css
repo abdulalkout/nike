@@ -1,0 +1,19 @@
+.footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  color: gray;
+  font-size: small;
+}
+
+.firstUl {
+  color: white;
+}

@@ -1,0 +1,38 @@
+.navExtension {
+  display: flex;
+  height: 5%;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+
+.searchCart {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  margin-right: 2%;
+}
+.bag {
+  height: 20px;
+}
+
+.logo2 {
+  margin-left: 2%;
+}
+
+.extensionLinks {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  font-size: small;
+  font-weight: 700;
+  margin-left: 8%;
+}
+
+.searchNav {
+  background-color: rgba(245, 245, 245, 255);
+  margin-right: 2%;
+  border: none;
+  height: 25px;
+  border-radius: 30px;
+}
