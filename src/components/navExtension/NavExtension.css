@@ -42,3 +42,8 @@
   height: 25px;
   border-radius: 30px;
 }
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

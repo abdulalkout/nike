@@ -3,7 +3,7 @@ import "./NavExtension.css";
 import { Link } from "react-router-dom";
 import "../../mystyle.css";
 
-function NavExtension() {
+function NavExtension({ set }) {
   return (
     <div className="navExtension">
       <a className="logo2" href="/">
@@ -15,11 +15,41 @@ function NavExtension() {
 
       <div className="extensionLinks">
         <Link to="/newFeature">New & Featured</Link>
-        <a>Man</a>
-        <a>Woman</a>
-        <a>Kids</a>
-        <a>Accessories</a>
-        <a>Sale</a>
+        <a
+          onMouseEnter={() => {
+            set(true);
+          }}
+        >
+          Man
+        </a>
+        <a
+          onMouseEnter={() => {
+            set(true);
+          }}
+        >
+          Woman
+        </a>
+        <a
+          onMouseEnter={() => {
+            set(true);
+          }}
+        >
+          Kids
+        </a>
+        <a
+          onMouseEnter={() => {
+            set(true);
+          }}
+        >
+          Accessories
+        </a>
+        <a
+          onMouseEnter={() => {
+            set(true);
+          }}
+        >
+          Sale
+        </a>
       </div>
       <div className="searchCart">
         <input className="searchNav" type="tex" placeholder="     Search" />

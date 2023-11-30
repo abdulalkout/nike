@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import "./Home.css";
 import Nav from "../../components/nav/Nav";
 import NavExtension from "../../components/navExtension/NavExtension";
@@ -12,12 +13,15 @@ import CategoriesList from "../../components/categories/CategoriesList";
 import categories from "../../module/categories";
 import GifComponent from "../../components/gifComponent/GifComponent";
 import popular from "../../module/popular";
+import HoverNav from "../../components/hoverNav/HoverNav";
 
 function Home() {
+  const [isHovered, setIsHovered] = useState(false);
   return (
     <div>
       <Nav />
-      <NavExtension />
+      <NavExtension set={setIsHovered} />
+      {isHovered ? <HoverNav set={setIsHovered} /> : null}
       <AdsBar />
       <div className="nikeHomePageDiv">
         <img
