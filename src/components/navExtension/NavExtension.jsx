@@ -6,10 +6,12 @@ import "../../mystyle.css";
 function NavExtension() {
   return (
     <div className="navExtension">
-      <img
-        className="bag logo2"
-        src="https://www.shutterstock.com/image-vector/pakistan-06-19-2023-nike-260nw-2319831063.jpg"
-      />
+      <a className="logo2" href="/">
+        <img
+          className="bag logo2"
+          src="https://www.shutterstock.com/image-vector/pakistan-06-19-2023-nike-260nw-2319831063.jpg"
+        />
+      </a>
 
       <div className="extensionLinks">
         <Link to="/newFeature">New & Featured</Link>
