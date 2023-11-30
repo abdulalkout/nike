@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import faceLogo from "../../image/face.png";
 
 function Footer() {
   return (
@@ -45,6 +46,7 @@ function Footer() {
           <li>Birthday</li>
         </ul>
       </div>
+      <img className="faceImg" src={faceLogo} />
     </div>
   );
 }

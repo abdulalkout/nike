@@ -14,4 +14,7 @@
   display: flex;
   overflow-x: auto;
   white-space: nowrap;
+  border: none;
+  border-right: 1px solid #ccc;
+  border-radius: 10px;
 }

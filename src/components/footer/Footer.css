@@ -1,5 +1,7 @@
 .footer {
   margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 30px;
   display: flex;
   justify-content: space-evenly;
   color: white;
@@ -16,4 +18,9 @@ ul {
 
 .firstUl {
   color: white;
+}
+
+.faceImg {
+  margin-top: 20px;
+  height: 50px;
 }

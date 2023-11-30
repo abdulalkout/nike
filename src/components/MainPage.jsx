@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import meenaCollection from "../module/meena_products";
 
 function MainPage() {
   const url = "https://api.escuelajs.co/api/v1/categories/4/products";
@@ -8,23 +9,21 @@ function MainPage() {
   const getData = async () => {
     const response = await fetch(url);
     const data = await response.json();
+    // console.log(data);
     setShoedata(data);
   };
 
   useEffect(() => {
     getData();
-  });
+  }, []);
 
   return (
     <div className="mainpage-div">
-      {shoedata.map((dataObj) => {
+      {meenaCollection.map((dataObj, index) => {
         return (
-          <div className="prod-list-div">
+          <div key={index} className="prod-list-div">
             <div>
-              <img
-                style={{ width: 200, height: 200 }}
-                src={dataObj.images[0]}
-              />
+              <img style={{ width: 200, height: 200 }} src={dataObj.images} />
               <div>
                 <h3>{dataObj.title}</h3>
               </div>

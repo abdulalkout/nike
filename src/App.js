@@ -5,7 +5,6 @@ import Home from "./pages/home/Home";
 import NewFeatures from "./pages/newFeatures/NewFeatures";
 
 function App() {
-  const [isHovered, setIsHovered] = useState(false);
   return (
     <Routes>
       <Route path="/" element={<Home />} />
